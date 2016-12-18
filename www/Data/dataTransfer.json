@@ -1,0 +1,27 @@
+{
+    "topics": {
+        "topic": [
+            {
+                "numFiles": 1000,
+                "wFiles": 25,
+                "name": "Audio",
+                "value": "30",
+                "color": "blue"
+            },
+            {
+                "numFiles": 300,
+                "wFiles": 50,
+                "name": "Video",
+                "value": "60",
+                "color": "green"
+            },
+            {
+                "numFiles": 4000,
+                "wFiles": 30,
+                "name": "Photo",
+                "value": "10",
+                "color": "red"
+            }
+        ]
+    }
+}
