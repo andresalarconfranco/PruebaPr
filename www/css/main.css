@@ -213,7 +213,7 @@ hr {
 }
 
 .fa-heart {
-  color:red !important;
+  color:#551515 !important;
 }
 
 ul {
@@ -251,4 +251,39 @@ li > a{
 
 li .fa:hover {
   color: orange;
+}
+
+.cell {
+  width: 10em;
+  height: 2em;
+}
+
+#acGeneral {
+  border-color: #dfded1;
+  border-style: solid;
+  background-color: #dfded1;
+  width: 41em;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+.upperCase {
+  text-transform: uppercase;
+}
+
+#acGeneral .cell {
+  color: #8d8484;
+}
+
+#acGeneral .cell:hover{
+  border-bottom-color: green;
+  border-bottom-style: solid;
+  border-bottom-width: .2em;
+}
+
+#acGeneral .fa-heart {
+  color: #8d8484 !important;
+}
+
+#acGeneral .fa:hover {
+  color: white !important;
 }

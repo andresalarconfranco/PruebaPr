@@ -109,3 +109,19 @@ function closeLoadDataProfile1(idElement){
   $("#DataProfile1").removeAttr("onclick");
   $("#DataProfile1").attr("onclick", "loadDataProfile1('W3');");
 }
+
+//Inicialize DataAccount widget
+function loadDataAccount(idElement) {
+
+      $( '#' + idElement ).account();
+
+    $("#DatAccount").removeAttr("onclick");
+    $("#DatAccount").attr("onclick", "closeLoadDataAccount('W4');");
+}
+
+//Close DataProfile widget
+function closeLoadDataAccount(idElement){
+  $("#" + idElement).children().remove();
+  $("#DatAccount").removeAttr("onclick");
+  $("#DatAccount").attr("onclick", "loadDataAccount('W4');");
+}
