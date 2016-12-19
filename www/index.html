@@ -9,19 +9,42 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="js/base.js"></script>
     <script type="text/javascript" src="js/DiagramStats.js"></script>
+    <script type="text/javascript" src="js/DataProfile.js"></script>
+    <script type="text/javascript" src="js/DataProfile1.js"></script>
     <script type="text/javascript" src="js/canvasjs.min.js"></script>
     <script type="text/javascript" src="js/jquery.i18n.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="row" id="Widgets">
-          <div id="W1">
-          </div>
+      <div class="row" id="lang">
+        <h3 id="en" class="opLan left" onclick="changeLang('en');">English</h3>
+        <h3 id="es" class="opLan left" onclick="changeLang('es');">Español</h3>
+      </div>
+      <div id="DataTransfer" class="clear" onclick="loadDataTransfer('W1');">
+        <i class="fa fa-exchange"></i>
+        Data Transfer
+      </div>
+      <div id="DataProfile" onclick="loadDataProfile('W2');">
+        <i class="fa fa-user"></i>
+        Data Profile
+      </div>
+      <div id="DataProfile1" onclick="loadDataProfile1('W3');">
+        <i class="fa fa-address-card"></i>
+        Data Profile 1
+      </div>
+      <div class="clear row" id="Widgets">
+        <div id="W1">
         </div>
-        <div id="DataTransfer" onclick="loadDataTransfer('W1');">
-          <i class="fa fa-exchange"></i>
-          Data Transfer
+        <div id="W2">
         </div>
+        <div id="W3">
+        </div>
+      </div>
     </div>
+    <div class="pie"></div>
+    <div class="pie"
+         style="animation-delay: -20s"></div>
+    <div class="pie"
+         style="animation-delay: -60s"></div>
 </body>
 </html>

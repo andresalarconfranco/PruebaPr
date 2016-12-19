@@ -1,8 +1,11 @@
 {
     "es": {
-      "group": "Archivos",
       "video": "Video",
       "audio": "Audio",
-      "photo": "Foto"
+      "photo": "Foto",
+      "editUser": "Editar usuario",
+      "webStats": "Estadisticas",
+      "uploadSett": "Configuración",
+      "events": "Eventos"
     }
 }

@@ -23,7 +23,9 @@
               '<hr id="hr_' +
               topic.name +
               '">' +
-              '<h2 class="topics">' +
+              '<h2 id="' +
+              topic.name +
+              '" class="topics">' +
               topic.name +
               "</h2>" +
               '<h2 class="topics topicsVal">' +
