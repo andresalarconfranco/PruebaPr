@@ -1,0 +1,11 @@
+{
+    "es": {
+      "video": "Video",
+      "audio": "Audio",
+      "photo": "Foto",
+      "editUser": "Editar usuario",
+      "webStats": "Estadisticas",
+      "uploadSett": "Configuración",
+      "events": "Eventos"
+    }
+}

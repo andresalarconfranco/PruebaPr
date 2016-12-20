@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi|Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>Widgets Test</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/DiagramStats.js"></script>
+    <script type="text/javascript" src="js/DataProfile.js"></script>
+    <script type="text/javascript" src="js/DataProfile1.js"></script>
+    <script type="text/javascript" src="js/Account.js"></script>
+    <script type="text/javascript" src="js/canvasjs.min.js"></script>
+    <script type="text/javascript" src="js/jquery.i18n.min.js"></script>
+</head>
+<body>
+    <div class="container">
+      <div class="row" id="lang">
+        <h3 id="en" class="opLan left" onclick="changeLang('en');">English</h3>
+        <h3 id="es" class="opLan left" onclick="changeLang('es');">Español</h3>
+      </div>
+      <div id="DataTransfer" class="clear" onclick="loadDataTransfer('W1');">
+        <i class="fa fa-exchange"></i>
+        Data Transfer
+      </div>
+      <div id="DataProfile" onclick="loadDataProfile('W2');">
+        <i class="fa fa-user"></i>
+        Data Profile
+      </div>
+      <div id="DataProfile1" onclick="loadDataProfile1('W3');">
+        <i class="fa fa-address-card"></i>
+        Data Profile 1
+      </div>
+      <div id="DatAccount" onclick="loadDataAccount('W4');">
+        <i class="fa fa-user-circle-o"></i>
+        Data Account
+      </div>
+      <div class="clear row" id="Widgets">
+        <div id="W1">
+        </div>
+        <div id="W2">
+        </div>
+        <div id="W3">
+        </div>
+        <div id="W4">
+        </div>
+      </div>
+    </div>
+    <div class="pie"></div>
+    <div class="pie"
+         style="animation-delay: -20s"></div>
+    <div class="pie"
+         style="animation-delay: -60s"></div>
+</body>
+</html>

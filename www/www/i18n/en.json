@@ -1,0 +1,11 @@
+{
+    "en": {
+      "video": "Video",
+      "audio": "Audio",
+      "photo": "Photo",
+      "editUser": "Edit user",
+      "webStats": "Web statistics",
+      "uploadSett": "Upload settings",
+      "events": "Events"
+    }
+}

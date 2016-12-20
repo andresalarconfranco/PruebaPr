@@ -1,0 +1,11 @@
+{
+  "person": {
+          "name": "John Raymons",
+          "backgroundImage": "img/bckImg.jpg",
+          "miniImage": "img/prfImg.jpg",
+          "description": "Your talent amazes! This is awesome. Excited to see the final product.",
+          "views": 172,
+          "comments": 34,
+          "likes": 210
+      }
+}
